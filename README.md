@@ -87,8 +87,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 2. 拉取deploy部署代码
 
 ```
-mkdir ansible-job-platform && cd ansible-job-platform
-git clone git@github.com:ops-coffee/ansible-job-platform.git
+git clone https://github.com/ops-coffee/ansible-job-platform.git
+cd ansible-job-platform
 ```
 
 3. 启动docker compose
